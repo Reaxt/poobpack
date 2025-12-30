@@ -1,0 +1,13 @@
+name = "Arts & Crafts"
+filename = "arts_and_crafts-forge-1.20.1-1.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JI9mEkvq/versions/wvAYlo0c/arts_and_crafts-forge-1.20.1-1.5.1.jar"
+hash-format = "sha512"
+hash = "6fcd0168c27f86dc872002b7f1ee9c9e9a952a3001c058b49e78c03b2365403a4bf332cf05382174244bcfa033e759a2dd7d3ecbe9e5206a4c7483cf0bffde87"
+
+[update]
+[update.modrinth]
+mod-id = "JI9mEkvq"
+version = "wvAYlo0c"

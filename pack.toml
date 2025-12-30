@@ -1,0 +1,13 @@
+name = "Poobcraft"
+author = "Reaxt"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "4101f2730ef6abb3223f3ec68658cab00f27cde6511af0bd825403da40f6f2cb"
+
+[versions]
+forge = "47.4.13"
+minecraft = "1.20.1"
