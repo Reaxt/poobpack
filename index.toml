@@ -119,6 +119,11 @@ hash = "f1f2ac0a30c1b2912e335f3d36b02a22af8b962385ed0a68bdcfa46cc83b9498"
 metafile = true
 
 [[files]]
+file = "mods/configured.pw.toml"
+hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
@@ -404,8 +409,28 @@ hash = "3ffd980d60e72eb2261ae4b72c500a79b12a5ed976f7c2b86c83f56d0af54fab"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+hash = "4ab869d8784f4ac318b5c92fa3d9e65f997352b8b57f34b409ca6f171637f0fe"
+metafile = true
+
+[[files]]
 file = "mods/portable-crafting-table.pw.toml"
 hash = "1fd8a2699c76037a8b14ee761a9e4520cba05105b26394d08e9bdf7e87e8a918"
+metafile = true
+
+[[files]]
+file = "mods/quark-oddities.pw.toml"
+hash = "056c481f39ce13ff8b3fa09fc5dd6b6549676135de8eb890ddc96ad180a4e383"
+metafile = true
+
+[[files]]
+file = "mods/quark.pw.toml"
+hash = "8df897c0f7831e919aa528c3c1e5239f39439c123d99761230ab2357132bad98"
+metafile = true
+
+[[files]]
+file = "mods/quarkponders.pw.toml"
+hash = "aba59fd89c4085dc61a0106abdb9a673928021a0f8f99467337779bd06d8cceb"
 metafile = true
 
 [[files]]
@@ -509,6 +534,16 @@ hash = "7d4883117ff8ab8e5d54204a7b5fa9ebbc4a8fae3f6cb5e8c1484d5c4b682705"
 metafile = true
 
 [[files]]
+file = "mods/vertical-slabs-compat.pw.toml"
+hash = "556cc110b9fb8ca07e24a59437b32dfbe44929cdd8621c0fc6e51083e3297e3a"
+metafile = true
+
+[[files]]
 file = "mods/visuality-reforged.pw.toml"
 hash = "7d26046aea03fcae4f1e5875d818543a5a401e2ae239cdfe3f18307309014290"
+metafile = true
+
+[[files]]
+file = "mods/zeta.pw.toml"
+hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
 metafile = true
