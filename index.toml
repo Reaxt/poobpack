@@ -358,6 +358,11 @@ hash = "00a16f6cc02ad9f0825138857da26e6bf5c0f65dc5d4d40705b091e29176d3a2"
 metafile = true
 
 [[files]]
+file = "mods/mantle.pw.toml"
+hash = "bba2b28e8acace697f9b4fecc3f735fe35677b79f9c31443f8b079f345bb7324"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "c9f8bce06b85e4dbfdaecc7d0930bf7f4fabccc7967f867b7eb7acb8dd5b77a7"
 metafile = true
@@ -525,6 +530,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-construct.pw.toml"
+hash = "260bb534371b626ae67d2d53fadc9807e3ab5deb92e1faa10bcf7ff61bd18b25"
 metafile = true
 
 [[files]]
