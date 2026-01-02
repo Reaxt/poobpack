@@ -5,6 +5,574 @@ file = "config/alexscaves-client.toml"
 hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
 
 [[files]]
+file = "config/fancymenu/animation_controller_states.json"
+hash = "63552006b1e436cbab7a0e0566994e40f1ec86776c7b83a3f71d4917d7741e59"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/17d68d328c0fa519dd6678d2d00debe4.png"
+hash = "1157dcbbbfa71f1b5ab292daa97745c86d939ba97502af1335e86815c46edf03"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/20230612_174438.jpg"
+hash = "476b858d7b4aac830e48a33dca20d65d9a1772413a6a0ba86c804ea3f1b65399"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Ahtpoob_5.png"
+hash = "86829ea8028c57918ffec2156ae2432781cb2603bed0b48867ed5d854e477cbe"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Char_Poobzable.png"
+hash = "8817924bfb85cfeb4d532cf50ed8a592e755181622412f8bd08f726702b0a30e"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Eyeless_Poobni.png"
+hash = "79323d0871f0b3769792a7e7f0df0446ae5468f36211a48c9af3aeea6c0b8b22"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Gordon_Poobman.png"
+hash = "2d026019abc3a605802430605cbfc4bc3a1d8445fc25b3d6b81c276f54c81c59"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/P-Man.png"
+hash = "4b23effad492b96257c5935f4fe500047761919dbafd2449eff382753fe1f148"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Pogg.png"
+hash = "e7608f84a4216c5a93129b4407e9b574aed8311ad9c1a6f32e21cc39c05f4849"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobday_Chains.png"
+hash = "c3feb99ca3e21233b719d84f96990dcd62066d1bfe7ae9ed5e7df480563419b1"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobday_Dalas.png"
+hash = "68bac4cfe784cbb5b34448e1960cdfc69d8c2f9a1c239d2b06e0b6cb9418113f"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobday_Hoxton.png"
+hash = "7c1b3a1f425e9dc6db53a6d9dffc21d384aff99d84e828a5e9e9ccf7db81a199"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobday_Wolf.png"
+hash = "441371af1dfeb464bdd6d77f13fec0bf4c5f96aaf6d5b07eef6b6f6528bf4394"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Pooberyl.png"
+hash = "f1502637661c4020efe8c6b1252a091d2f2509e4872719a765798f8f28a233d3"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobfort_Heavy.png"
+hash = "0a60279a0486fbbd54e9c049f1b54803167a6a87e482078457723e0f0e45aff7"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobfort_Medic.png"
+hash = "8d4e66f040f30648fc8e794ca51042691484790fb2ba3f8cffb4c2c496d724d1"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobfort_Pyro.png"
+hash = "2b3f531b8b0d9877daa8c648ee9fd2b7d3655b7b837ca21b26bcc8c8369679e8"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobfort_Scout.png"
+hash = "425066c45482afc0b7278d0cb6047d1a4e046e0f70a82a719fea6904f1c7f338"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobfort_Sniper.png"
+hash = "2b39433764dab27d5f7f32d06d07c2bf7902103d43f16eb8f8c04f0433365558"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobfort_Soldier.png"
+hash = "b5b1b1b59ab3627bfc2cc69c1f7fdcc31fe7ef69a97853f583fa046eedc6a9c2"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobfort_Spy.png"
+hash = "ffe171ed02ec7e944d2038002ed90bfa833a23be3b3231e59f6b3a7be899d056"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Pooblheyak.png"
+hash = "3ab206afe1588e1f9125e6682094ef3c650633144e2473903f7dfb5d31c74a38"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobranger_3.png"
+hash = "0799192367ce99a777099adecda8a2c6d64748c30a8fbb6031f55553469859eb"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Poobstranger.png"
+hash = "b4e9703f49294aa2594b162c2454e2d912e138ac7409ec67706537564cc8d7e7"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/Transp_MF_Poob.png"
+hash = "c07a29ad8b95cd0e3f4b7a084a7857983827e16b464e7e8af3cdaa6b2cf1bf6b"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/big poob (cropped).png"
+hash = "c223fb021c01047d94e05a316223024c9ce3ab5e0c027fbd02e7631d47c3aeab"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/big poob (uncropped).png"
+hash = "976ac1bb248f1b0436af19246eccb0778775b909a4cf2d57b5c6b92180d23254"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/cloud poob.png"
+hash = "69cf63c333c618eb6d4de4ef85f109c08038fb5318036289e862974a6278340c"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/enjoy the next 52 seconds.png"
+hash = "3a46b113ac0c327cf202bac2193f132597eb02eba0af76180013b19f293de676"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/fernpoob3.png"
+hash = "bed6d6c36e30d219754339fe1386ae24b22a8d99cc27492478185ef2ba797a7a"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/hatsunepoob.png"
+hash = "b6f90a74e4cefbbdd308d4b64d664354eb27784891a61f24432cc5beecb51dc7"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/hq poob.png"
+hash = "41d7fa94268cbd1259c142b0b3119f337a2c92016b8747a00f2b0bba61ebc85b"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/megapoob.png"
+hash = "5b9cb64da7dcc441e4e6ff6d8cf1eaabd11bff86d321f6dca6212fcd730ee7c4"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/pee.png"
+hash = "82caf46e70ed31bbad94840a59cb78fd35d5ea57da349c0b540ecce56d62155c"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/pooangry.gif"
+hash = "5e79867882026821e1e7ca4f734b16d4a8a4ab573e80599feb76c50b4847c325"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poob (jolly).png"
+hash = "51291b191220536d4918abefe29bde20d7488e8e1ea1835f093d20d539d968f3"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poob (santa).png"
+hash = "069d29ce101d70d1a994bcfecfbec0e2bfbc9a30a83bffbbe215a23ec60912e7"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poob cake (real).jpg"
+hash = "3ab9f8799e917a33369946e76f14e19b44ffe3cfc7bfcbb0e8cbe3b40a3a3ee8"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poob cube prison.gif"
+hash = "6201544d97c611d381bc399c2e06627a1afabf128e994e7da9169e609a97b69f"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poob.png"
+hash = "d31951a9631d81033c6bfa9cf3837eb217db8fec010200773d8a269734e74c90"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poob1.png"
+hash = "d1b2d1ac1461b98741f19b5d8f2f08f70af1e2f6b4a60167f9eb8a51015531fa"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobblehh.png"
+hash = "b0c695d594a6373befd2604cd079ac004195997495c94332a8a7d189bbf26cf9"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobclair.png"
+hash = "ecdbb63e2097cefbcd8aef7d3d9479356089671bb69d31f135133eae9b0af014"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobcliff.png"
+hash = "7e8cbb0c9f4edc640963ec92efb931274bc1d26a494b113209cc0b281dd12771"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobcool.png"
+hash = "74902c2c7e57b0b879940aa763dbb26b787df3a8a9ba18083f1f4da275b95ec9"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobday.png"
+hash = "792f2bb9860dc0677f406d3fe53dc02a6d89451104893f2069fc75df8905b1a4"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobdutch.png"
+hash = "89f89be06f206ec8d836c425eca344f2f44f6a6dfa633d5897642c10f5e8df28"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobed.png"
+hash = "84ba7c88a799afd478625fea79aa1e5a9360d00b9db5382d46e5388935d10169"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobenheimer.png"
+hash = "2adb009421f59100653199d9889b9334e1ffe9f5deee13b12e0a5fb369ccdb88"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poober_samsa.png"
+hash = "28c62a2e21f82d92d458e3335e2bf6a9fb8b6a3b026fae444ee824adb52587c8"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobexplode.gif"
+hash = "55fdf50d6f9e5f8bddc881fcc2c8122c391859220325e3b0368ff6014a2753ec"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobfancy.png"
+hash = "d27fdac0023b86f47f7977f41cd7c67ef006cb594edadfcb89e7af529cf64515"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobfort_Demo.png"
+hash = "7bdf19a1ec129585701a0bc4ebd3ebb0689a2f3cd660822034073580b2623787"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobfort_Engie.png"
+hash = "f12f01b3a64d12ad3ef92f44440d3fdaab1f8f074e3e031f6ebb8c53559394ea"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/pooblush.png"
+hash = "e475d6cbe219033f189ca5fc59a559d054cef07b3c2d0f4ceeb28bbfb84b4cc5"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobmas.png"
+hash = "d141c729accb15199752876089b82b9a1aa53aaebb47b257ae5b76a428a849a6"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobnerd.png"
+hash = "f02323dca527c7478858638963128757067d96ac1e235c6732898c6fb3f922a6"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobpainter.webp"
+hash = "2e99022fa86f19daca33601eb85d6b48ba78cdc260929d5ba83f130d84b23030"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobpartyhat.png"
+hash = "1f54d25157e2d316d8abbe217f7469b15a6c2228d18fff023d77f17f80036001"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poobrate.png"
+hash = "a0a7ccb2f8ae31396532a53dd3ef71a0aa669c164ac7882a1d9a88fa7d3e5ed2"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poocat invert.png"
+hash = "240cda753824e94a88d61ace86e931830a1065a932931b90f6bf93b3a7e22591"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poocry.png"
+hash = "022ce140e4ab4f194c856d1415f746dd57c2aa6df5941e3d80c1f87269c3ccd0"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poodepressed.gif"
+hash = "3dcec81feee84138f840f4d8a9dc8ce0d8ef8b51134fbdcbc78971ba5a811671"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poodespair.png"
+hash = "ce2aed75caca59fb728d7ae93cc97166b020a5a06fcb96cd77154958685e3ae0"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/pooheart.png"
+hash = "d04bd5fae2f2ed7305903400a5baf045bd8cac6321e32024ba276b05e4f5a9e7"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poorain.gif"
+hash = "08b5dea8628ac11b722f0c3bf1b2e57638f895eebb29b2c74f3f1b01eacd94f1"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poosparkling.gif"
+hash = "dd973a126787bbb3de29304bcaeef645a688cfefb994c12790d96b525c06e053"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poosphere.gif"
+hash = "77e3fc1e8997049e6f3a8fedc82b897ed42255db8ab7cd80f27ac647cf9a94d4"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/poothumbsup.png"
+hash = "9111241c46aeede838fb094a8530930692ba76344f19dbb2b8bbce09a91d5249"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/punished_poob.png"
+hash = "008e268c6ee67b89d2d6e7a6d835ac506979a9817023135ddc262310b45bfdc5"
+
+[[files]]
+file = "config/fancymenu/assets/poobs/sometimes i poob but then i poob.png"
+hash = "fe9bf93f2486919759b291a0ad1cad6b12490772dc38c35cf8efb683217cd446"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "d1d4cc1eed0e1d9830c270871aa54db5f6fdd9e9f5e8c918208603fd6a1e7156"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "a3d76980e12748e9e316cdb9274f9614d8f46eab429e7fcc6d40547d23ea75d2"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout_1.txt"
+hash = "a8f3e350955ed94ae67e5b593e64af9a6eeb2411f4a25fb9e884d50c16f9c863"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "5f9ff772228135fe6d8e56c5ece5a7bbacd04f1c46d489b92a14034ccbe59798"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/17d68d328c0fa519dd6678d2d00debe4.png"
+hash = "1157dcbbbfa71f1b5ab292daa97745c86d939ba97502af1335e86815c46edf03"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Ahtpoob_5.png"
+hash = "86829ea8028c57918ffec2156ae2432781cb2603bed0b48867ed5d854e477cbe"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Char_Poobzable.png"
+hash = "8817924bfb85cfeb4d532cf50ed8a592e755181622412f8bd08f726702b0a30e"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Eyeless_Poobni.png"
+hash = "79323d0871f0b3769792a7e7f0df0446ae5468f36211a48c9af3aeea6c0b8b22"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Gordon_Poobman.png"
+hash = "2d026019abc3a605802430605cbfc4bc3a1d8445fc25b3d6b81c276f54c81c59"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/P-Man.png"
+hash = "4b23effad492b96257c5935f4fe500047761919dbafd2449eff382753fe1f148"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Pogg.png"
+hash = "e7608f84a4216c5a93129b4407e9b574aed8311ad9c1a6f32e21cc39c05f4849"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobday_Chains.png"
+hash = "c3feb99ca3e21233b719d84f96990dcd62066d1bfe7ae9ed5e7df480563419b1"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobday_Dalas.png"
+hash = "68bac4cfe784cbb5b34448e1960cdfc69d8c2f9a1c239d2b06e0b6cb9418113f"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobday_Hoxton.png"
+hash = "7c1b3a1f425e9dc6db53a6d9dffc21d384aff99d84e828a5e9e9ccf7db81a199"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobday_Wolf.png"
+hash = "441371af1dfeb464bdd6d77f13fec0bf4c5f96aaf6d5b07eef6b6f6528bf4394"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Pooberyl.png"
+hash = "f1502637661c4020efe8c6b1252a091d2f2509e4872719a765798f8f28a233d3"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobfort_Heavy.png"
+hash = "0a60279a0486fbbd54e9c049f1b54803167a6a87e482078457723e0f0e45aff7"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobfort_Medic.png"
+hash = "8d4e66f040f30648fc8e794ca51042691484790fb2ba3f8cffb4c2c496d724d1"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobfort_Pyro.png"
+hash = "2b3f531b8b0d9877daa8c648ee9fd2b7d3655b7b837ca21b26bcc8c8369679e8"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobfort_Scout.png"
+hash = "425066c45482afc0b7278d0cb6047d1a4e046e0f70a82a719fea6904f1c7f338"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobfort_Sniper.png"
+hash = "2b39433764dab27d5f7f32d06d07c2bf7902103d43f16eb8f8c04f0433365558"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobfort_Soldier.png"
+hash = "b5b1b1b59ab3627bfc2cc69c1f7fdcc31fe7ef69a97853f583fa046eedc6a9c2"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobfort_Spy.png"
+hash = "ffe171ed02ec7e944d2038002ed90bfa833a23be3b3231e59f6b3a7be899d056"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Pooblheyak.png"
+hash = "3ab206afe1588e1f9125e6682094ef3c650633144e2473903f7dfb5d31c74a38"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobranger_3.png"
+hash = "0799192367ce99a777099adecda8a2c6d64748c30a8fbb6031f55553469859eb"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Poobstranger.png"
+hash = "b4e9703f49294aa2594b162c2454e2d912e138ac7409ec67706537564cc8d7e7"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/Transp_MF_Poob.png"
+hash = "c07a29ad8b95cd0e3f4b7a084a7857983827e16b464e7e8af3cdaa6b2cf1bf6b"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/big poob (cropped).png"
+hash = "c223fb021c01047d94e05a316223024c9ce3ab5e0c027fbd02e7631d47c3aeab"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/big poob (uncropped).png"
+hash = "976ac1bb248f1b0436af19246eccb0778775b909a4cf2d57b5c6b92180d23254"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/cloud poob.png"
+hash = "69cf63c333c618eb6d4de4ef85f109c08038fb5318036289e862974a6278340c"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/enjoy the next 52 seconds.png"
+hash = "3a46b113ac0c327cf202bac2193f132597eb02eba0af76180013b19f293de676"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/fernpoob3.png"
+hash = "bed6d6c36e30d219754339fe1386ae24b22a8d99cc27492478185ef2ba797a7a"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/hatsunepoob.png"
+hash = "b6f90a74e4cefbbdd308d4b64d664354eb27784891a61f24432cc5beecb51dc7"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/hq poob.png"
+hash = "41d7fa94268cbd1259c142b0b3119f337a2c92016b8747a00f2b0bba61ebc85b"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/megapoob.png"
+hash = "5b9cb64da7dcc441e4e6ff6d8cf1eaabd11bff86d321f6dca6212fcd730ee7c4"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/pee.png"
+hash = "82caf46e70ed31bbad94840a59cb78fd35d5ea57da349c0b540ecce56d62155c"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poob (jolly).png"
+hash = "51291b191220536d4918abefe29bde20d7488e8e1ea1835f093d20d539d968f3"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poob (santa).png"
+hash = "069d29ce101d70d1a994bcfecfbec0e2bfbc9a30a83bffbbe215a23ec60912e7"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poob.png"
+hash = "d31951a9631d81033c6bfa9cf3837eb217db8fec010200773d8a269734e74c90"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poob1.png"
+hash = "d1b2d1ac1461b98741f19b5d8f2f08f70af1e2f6b4a60167f9eb8a51015531fa"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobblehh.png"
+hash = "b0c695d594a6373befd2604cd079ac004195997495c94332a8a7d189bbf26cf9"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobclair.png"
+hash = "ecdbb63e2097cefbcd8aef7d3d9479356089671bb69d31f135133eae9b0af014"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobcliff.png"
+hash = "7e8cbb0c9f4edc640963ec92efb931274bc1d26a494b113209cc0b281dd12771"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobcool.png"
+hash = "74902c2c7e57b0b879940aa763dbb26b787df3a8a9ba18083f1f4da275b95ec9"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobday.png"
+hash = "792f2bb9860dc0677f406d3fe53dc02a6d89451104893f2069fc75df8905b1a4"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobdutch.png"
+hash = "89f89be06f206ec8d836c425eca344f2f44f6a6dfa633d5897642c10f5e8df28"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobed.png"
+hash = "84ba7c88a799afd478625fea79aa1e5a9360d00b9db5382d46e5388935d10169"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobenheimer.png"
+hash = "2adb009421f59100653199d9889b9334e1ffe9f5deee13b12e0a5fb369ccdb88"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poober_samsa.png"
+hash = "28c62a2e21f82d92d458e3335e2bf6a9fb8b6a3b026fae444ee824adb52587c8"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobfancy.png"
+hash = "d27fdac0023b86f47f7977f41cd7c67ef006cb594edadfcb89e7af529cf64515"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobfort_Demo.png"
+hash = "7bdf19a1ec129585701a0bc4ebd3ebb0689a2f3cd660822034073580b2623787"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobfort_Engie.png"
+hash = "f12f01b3a64d12ad3ef92f44440d3fdaab1f8f074e3e031f6ebb8c53559394ea"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/pooblush.png"
+hash = "e475d6cbe219033f189ca5fc59a559d054cef07b3c2d0f4ceeb28bbfb84b4cc5"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobmas.png"
+hash = "d141c729accb15199752876089b82b9a1aa53aaebb47b257ae5b76a428a849a6"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobnerd.png"
+hash = "f02323dca527c7478858638963128757067d96ac1e235c6732898c6fb3f922a6"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobpartyhat.png"
+hash = "1f54d25157e2d316d8abbe217f7469b15a6c2228d18fff023d77f17f80036001"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poobrate.png"
+hash = "a0a7ccb2f8ae31396532a53dd3ef71a0aa669c164ac7882a1d9a88fa7d3e5ed2"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poocat invert.png"
+hash = "240cda753824e94a88d61ace86e931830a1065a932931b90f6bf93b3a7e22591"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poocry.png"
+hash = "022ce140e4ab4f194c856d1415f746dd57c2aa6df5941e3d80c1f87269c3ccd0"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poodespair.png"
+hash = "ce2aed75caca59fb728d7ae93cc97166b020a5a06fcb96cd77154958685e3ae0"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/pooheart.png"
+hash = "d04bd5fae2f2ed7305903400a5baf045bd8cac6321e32024ba276b05e4f5a9e7"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/poothumbsup.png"
+hash = "9111241c46aeede838fb094a8530930692ba76344f19dbb2b8bbce09a91d5249"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/punished_poob.png"
+hash = "008e268c6ee67b89d2d6e7a6d835ac506979a9817023135ddc262310b45bfdc5"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/images/sometimes i poob but then i poob.png"
+hash = "fe9bf93f2486919759b291a0ad1cad6b12490772dc38c35cf8efb683217cd446"
+
+[[files]]
+file = "config/fancymenu/slideshows/poobs/properties.txt"
+hash = "b1a72a3722fb2992ab8492d8612a3ee41b10d9d0903f9872179c1f07439391fc"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "e9a4d7ac78a516d645e0c2d4f9bab329ef90331a8302e4eac3eaea48ea42179d"
 
@@ -190,6 +758,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
+metafile = true
+
+[[files]]
+file = "mods/dcintegration.pw.toml"
+hash = "7c1ac01f8026fac8630fa7762a4325bfda54578d7904890904308b921d33ebd8"
 metafile = true
 
 [[files]]

@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = poobs
+   width = 512
+   height = 512
+   x = 0
+   y = 0
+   duration = 99999.0
+   fadespeed = 12.0
+   randomize = true
+}
