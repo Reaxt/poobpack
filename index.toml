@@ -1071,16 +1071,6 @@ hash = "f49c7302f7a044aae67740fac3a7558ca2f26b3a89a69a3940d516a40e3b75b7"
 metafile = true
 
 [[files]]
-file = "mods/sophisticated-backpacks.pw.toml"
-hash = "0023efff6ba97c0d4f291c239f6566f3d4d40d183d0eaa25eacb7558aa2a7dd5"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-core.pw.toml"
-hash = "03875711b2137496e8f94990ad2a8d2efeaa7eeafab4dece340287d4900d89f5"
-metafile = true
-
-[[files]]
 file = "mods/stone-zone.pw.toml"
 hash = "debea00134b24debeb7b7b10bb3150a6d01f727cdc0b9e4817e71206e0a1b618"
 metafile = true
