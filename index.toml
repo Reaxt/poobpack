@@ -6,7 +6,7 @@ hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "7c01df704a66653df7793e4c6a856815be283106df03765f196c89bd962d463c"
+hash = "78bc9876221e14bce3c5a92a6dfa77743ee2cff5c67a3e21feae5dc0cf7796ee"
 
 [[files]]
 file = "config/fancymenu/animation_controller_states.json"
@@ -661,7 +661,7 @@ metafile = true
 
 [[files]]
 file = "mods/blueprint.pw.toml"
-hash = "90fc66d49d29c1b1a5b14c5d571d628c6853f7f0519b04e74e14399c75cd08c6"
+hash = "790de162313fcbe950496580db107eb8da2ae29060cbf611764d1bb352461d03"
 metafile = true
 
 [[files]]
@@ -672,6 +672,11 @@ metafile = true
 [[files]]
 file = "mods/carry-on.pw.toml"
 hash = "a613f5d2df911fea606968bbdb56eebfd05ac02ada846cf0d2e56e72345d9338"
+metafile = true
+
+[[files]]
+file = "mods/caverns-and-chasms.pw.toml"
+hash = "e6c378f7499864c5634525a2ec77ec14f3152abd095aab66512d59131c852a7a"
 metafile = true
 
 [[files]]
@@ -735,6 +740,11 @@ hash = "c670ae9055f10dafb61fe340583c361f4c41ed45671c9440bae1f0696b47252a"
 metafile = true
 
 [[files]]
+file = "mods/create-enlightend.pw.toml"
+hash = "13bc5775702f1aa7678377269a7d51cecea9a73c4d69b735e2a1297a04cae48c"
+metafile = true
+
+[[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "62d198c4aaaf86c010de6b0e3933c09424f17380842a3dfd28123676eaa31632"
 metafile = true
@@ -742,6 +752,11 @@ metafile = true
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "5391ac307bbc73edb72e7eb11495af96e327eff1c02ff67d2ebbe615ca6766d7"
+metafile = true
+
+[[files]]
+file = "mods/create-x-caverns-chasms-compat.pw.toml"
+hash = "f43d45d5cbc96c3d0dbfdfe9277cda7057ef7673bee4bae70710369f37c38d42"
 metafile = true
 
 [[files]]
@@ -757,6 +772,11 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "e6d1f36e9e0193fe410d136e0cda8a7f6dbbc809c0644f06a601bddf5b38a395"
+metafile = true
+
+[[files]]
+file = "mods/critters-and-companions.pw.toml"
+hash = "dce7de4e5a948da16df350f36ffdd1b0be9843041777b0b2e3e1e1e87e1b1c9d"
 metafile = true
 
 [[files]]
@@ -785,6 +805,11 @@ hash = "e0d378e3a1c413c67634413187f138838e198df51d3481d77216747bd6d9d2da"
 metafile = true
 
 [[files]]
+file = "mods/dungeon-now-loading.pw.toml"
+hash = "c6e7d97b4f32a4e2c38b37fe4c891678839f03f11f03621cdebbb1cb7e7f7bf5"
+metafile = true
+
+[[files]]
 file = "mods/dungeons_delight.pw.toml"
 hash = "5a9c0b4bb162a8edfd2541b4d30e691b98e389068e5a9c6f9d9b4248ad7a5044"
 metafile = true
@@ -797,6 +822,16 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
+metafile = true
+
+[[files]]
+file = "mods/endergetic.pw.toml"
+hash = "d6d6f896494ce5a9c02fb11f8c929124d19308652f602bf530164cf5d204e6de"
+metafile = true
+
+[[files]]
+file = "mods/enlightend.pw.toml"
+hash = "bd3ba2a82d5b80be3ccc187ad50a1aec11f53956c2a20cd9a0ad70b8cd932c1d"
 metafile = true
 
 [[files]]
@@ -857,6 +892,11 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "88f142bda6bfa6aff4f4d4e12b8ba7581aa40e3f163039a533f09dd6d634e093"
 metafile = true
 
 [[files]]
@@ -962,6 +1002,11 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "c3fe09de76654cbd7012ab476423de1eb1e3ae80cc2a3aec7ff547560e1b56c9"
+metafile = true
+
+[[files]]
+file = "mods/more-sniffer-flowers.pw.toml"
+hash = "e2220a1367780b53912a688c279d42799c0394552b6ed6b62ac6bd6381e51337"
 metafile = true
 
 [[files]]
