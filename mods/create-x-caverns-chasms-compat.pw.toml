@@ -1,0 +1,13 @@
+name = "Create x Caverns & Chasms Compat"
+filename = "createxcavernschasmscompat_v2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "34a916ab96300eb59c61ce985979f06e1526f8bb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7398673
+project-id = 1266763
