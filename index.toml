@@ -581,6 +581,10 @@ file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
+file = "config/naturescompass-common.toml"
+hash = "0b44cdf789dafff5bacb22bd7a53e7c6b1d75ca60141d88a3c4524ba44eb415e"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "e9a4d7ac78a516d645e0c2d4f9bab329ef90331a8302e4eac3eaea48ea42179d"
 
@@ -696,6 +700,7 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
+metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
