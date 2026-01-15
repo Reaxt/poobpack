@@ -1,0 +1,71 @@
+# This is a basic workflow to help you get started with Actions
+
+name: refreshpack
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  #uncomment when im done testing other workflows
+  push:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  refreshpack:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - uses: actions/setup-go@v6
+        with:
+          go-version: '1.25.5'
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      - name: Get commit message
+        run: git log -1 --pretty=format:"message=%s" >> $GITHUB_OUTPUT
+        id: commit_message
+      - name: Refresh packwiz hash
+        run: packwiz refresh
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: ${{steps.commit_message.outputs.message}} - Refresh Hash
+          branch: main
+  pullpack:
+    needs: refreshpack
+    environment: ssh
+    runs-on: ubuntu-latest
+  # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Pull data
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST}}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVKEY }}
+          script: ./serverpull.sh
+      - name: Inform of server shutdown
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{secrets.SSH_HOST}}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVKEY }}
+          script: ./sshsay.sh "Server will restart in 1 minute!"
+      - name: Wait a minute!
+        run: sleep 60
+      - name: Restart the server!
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST}}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVKEY }}
+          script: systemctl --user restart poob.service
