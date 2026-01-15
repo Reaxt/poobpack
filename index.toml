@@ -669,7 +669,7 @@ metafile = true
 
 [[files]]
 file = "mods/blueprint.pw.toml"
-hash = "790de162313fcbe950496580db107eb8da2ae29060cbf611764d1bb352461d03"
+hash = "90fc66d49d29c1b1a5b14c5d571d628c6853f7f0519b04e74e14399c75cd08c6"
 metafile = true
 
 [[files]]
@@ -800,6 +800,7 @@ metafile = true
 [[files]]
 file = "mods/critters-and-companions.pw.toml"
 hash = "dce7de4e5a948da16df350f36ffdd1b0be9843041777b0b2e3e1e1e87e1b1c9d"
+metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
@@ -859,6 +860,7 @@ metafile = true
 [[files]]
 file = "mods/enlightend.pw.toml"
 hash = "bd3ba2a82d5b80be3ccc187ad50a1aec11f53956c2a20cd9a0ad70b8cd932c1d"
+metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
