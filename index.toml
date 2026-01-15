@@ -1,12 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/refreshpack.yml"
+hash = "b772a912c99e641bfcf526286d19c8c54e77d02f5517ddc5516e872c84d2b273"
+
+[[files]]
 file = "config/alexscaves-client.toml"
 hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "7c01df704a66653df7793e4c6a856815be283106df03765f196c89bd962d463c"
+hash = "78bc9876221e14bce3c5a92a6dfa77743ee2cff5c67a3e21feae5dc0cf7796ee"
 
 [[files]]
 file = "config/fancymenu/animation_controller_states.json"
@@ -577,6 +581,10 @@ file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
+file = "config/naturescompass-common.toml"
+hash = "0b44cdf789dafff5bacb22bd7a53e7c6b1d75ca60141d88a3c4524ba44eb415e"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "e9a4d7ac78a516d645e0c2d4f9bab329ef90331a8302e4eac3eaea48ea42179d"
 
@@ -739,6 +747,16 @@ hash = "0c8838dba7d2090968ca9ec633260d42ca16f1df186a780bd5965994541d9f74"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "903352ffbd84d4b95fed905893f4715d9c3f88ec9fff6fb06f6e359e0b839dc3"
+metafile = true
+
+[[files]]
 file = "mods/compat-delight.pw.toml"
 hash = "f1f2ac0a30c1b2912e335f3d36b02a22af8b962385ed0a68bdcfa46cc83b9498"
 metafile = true
@@ -746,6 +764,11 @@ metafile = true
 [[files]]
 file = "mods/configured.pw.toml"
 hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
+metafile = true
+
+[[files]]
+file = "mods/connectivity.pw.toml"
+hash = "5b0eaf19630d6145093ae6ff9a21cf2dbdd0da53d9289673ad5ccb099afa18b7"
 metafile = true
 
 [[files]]
@@ -1044,6 +1067,11 @@ hash = "dfb4b7c9a2085a665e87ebc3d60045e3173bb602e7b3de94e29d37168083345d"
 metafile = true
 
 [[files]]
+file = "mods/login-protection.pw.toml"
+hash = "0a96e881040a95b2543d18afc3f9e1727e64659ec1548ed2df4fcd7dafbfbbc7"
+metafile = true
+
+[[files]]
 file = "mods/malum.pw.toml"
 hash = "00a16f6cc02ad9f0825138857da26e6bf5c0f65dc5d4d40705b091e29176d3a2"
 metafile = true
@@ -1064,6 +1092,11 @@ hash = "67a9681bb1944cb09e596d30905be4ab72f5478b5abaa67a45737a51824ae648"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "186909f73870979511db893fca2e2a318b311361f168d425ba0e58fc539188ee"
+metafile = true
+
+[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "c3fe09de76654cbd7012ab476423de1eb1e3ae80cc2a3aec7ff547560e1b56c9"
 metafile = true
@@ -1076,6 +1109,11 @@ metafile = true
 [[files]]
 file = "mods/morph-o-tool.pw.toml"
 hash = "33b81bba2d8a156fb1115be572f01c4e7e4bc76d83421bfa3c884e75880bdeeb"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "362ead0883974a7de4dd711a75ccfe71b2ceadf172211934e8cd6084977c0f49"
 metafile = true
 
 [[files]]
@@ -1206,16 +1244,6 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "f49c7302f7a044aae67740fac3a7558ca2f26b3a89a69a3940d516a40e3b75b7"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-backpacks.pw.toml"
-hash = "0023efff6ba97c0d4f291c239f6566f3d4d40d183d0eaa25eacb7558aa2a7dd5"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-core.pw.toml"
-hash = "03875711b2137496e8f94990ad2a8d2efeaa7eeafab4dece340287d4900d89f5"
 metafile = true
 
 [[files]]
