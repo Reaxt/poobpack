@@ -1,0 +1,40 @@
+# This is a basic workflow to help you get started with Actions
+
+name: RunMC
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  #uncomment when im done testing other workflows
+  #push:
+  #  branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  runMC:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+      - name: install libs
+        run: |
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends xvfb libxtst6 libxi6 x11-apps 
+      - name: yea
+        run: |
+            curl -LO https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.2/PrismLauncher-Linux-x86_64.AppImage
+            chmod +x ./PrismLauncher-Linux-x86_64.AppImage
+            ./PrismLauncher-Linux-x86_64.AppImage -h
+      - name: Setup Xvfb
+        run: |
+          export DISPLAY=:1# For this step
+          echo "DISPLAY=:1" >> "$GITHUB_ENV"# For future steps
+          sudo Xvfb -ac :1 -screen 0 854x480x24 > /dev/null2>&1 &
+      
+
