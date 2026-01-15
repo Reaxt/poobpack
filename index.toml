@@ -777,6 +777,11 @@ hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
 
 [[files]]
+file = "mods/copper-age-backport.pw.toml"
+hash = "39a7932628fc9059d78299fcccb3a4da27dd5b373671aa4abfb9df4019bfe2b8"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "853df4ab2418f347cbb1e3b4ca6c82b2a517a8e4e8ccabcd42c27e3496707a32"
 metafile = true
@@ -1142,6 +1147,11 @@ hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "bd56624f00cda9e544281d2c247e5479f6f1c315f8d8088cfee86e8b61f69dac"
+metafile = true
+
+[[files]]
 file = "mods/plushie-buddies.pw.toml"
 hash = "3ffd980d60e72eb2261ae4b72c500a79b12a5ed976f7c2b86c83f56d0af54fab"
 metafile = true
@@ -1287,8 +1297,18 @@ hash = "260bb534371b626ae67d2d53fadc9807e3ab5deb92e1faa10bcf7ff61bd18b25"
 metafile = true
 
 [[files]]
+file = "mods/trials-chambers-backport.pw.toml"
+hash = "9650dfda2f88540a954d108fdf49b536f0e9cdf0d46323b71ce872ce534f5cd5"
+metafile = true
+
+[[files]]
 file = "mods/uppers.pw.toml"
 hash = "7d4883117ff8ab8e5d54204a7b5fa9ebbc4a8fae3f6cb5e8c1484d5c4b682705"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "7e730b980a0d8aea7a573b53885e7b3939912868da20b780673fbbaed4d1f488"
 metafile = true
 
 [[files]]
