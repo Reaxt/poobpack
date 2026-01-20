@@ -629,6 +629,10 @@ file = "kubejs/server_scripts/example.js"
 hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
 [[files]]
+file = "kubejs/server_scripts/fisherman_compat.js"
+hash = "646ddcdee1a944d19a06374164f6ae38c3ff1c1243a2037be941631eace34eab"
+
+[[files]]
 file = "kubejs/server_scripts/nocopper.js"
 hash = "5af6d3e4ab8a492c92be570ef0025969cf8816f5fa9e3cf61de2c0bb7f7f0828"
 
@@ -981,6 +985,11 @@ hash = "51af4a776fd62c9349329b2b13e0c29f80f5d728bba7afce35e512dcf6f10beb"
 metafile = true
 
 [[files]]
+file = "mods/fishermans-haven.pw.toml"
+hash = "b09bd704919d0c112a32f2a644374018ec00937581ad40307a44f4406130f89e"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
 metafile = true
@@ -1053,6 +1062,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-delight.pw.toml"
+hash = "a3774b5c23d616cbf1cf9322577e185b5cd7f16cc721ad5c60303d6145361415"
 metafile = true
 
 [[files]]
