@@ -1070,7 +1070,7 @@ metafile = true
 
 [[files]]
 file = "mods/gems-realm.pw.toml"
-hash = "ae5469a605102e8be36dbf74e6735ecd56c6a41ba8a8a0299ac522da7b175813"
+hash = "8ddf7f10eb5e43b5721f71a21678c7901cd98affd122616ac6556b5a24730516"
 metafile = true
 
 [[files]]
