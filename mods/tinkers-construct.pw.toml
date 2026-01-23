@@ -1,13 +1,13 @@
 name = "Tinkers' Construct"
-filename = "TConstruct-1.20.1-3.11.2.166.jar"
+filename = "TConstruct-1.20.1-3.11.0.148.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rxIIYO6c/versions/kJ9LD194/TConstruct-1.20.1-3.11.2.166.jar"
+url = "https://cdn.modrinth.com/data/rxIIYO6c/versions/AX42Y90m/TConstruct-1.20.1-3.11.0.148.jar"
 hash-format = "sha512"
-hash = "69da7399162b4de18b3eedf701f6013727ec4ae14b1b746265513bea6c4e88ad64ccb1187d3abca2387aafd37a91c21c56ce9b6fa7b0c26df17dfc1ac8d6a916"
+hash = "ffcf124fe553e185148574b43fbba6bdc4d1c55f04741f5a3a0f3cc00a330191e2ee384e16c4f5599b7a42202834e8b9327661aad8edd6fee0acaa557dd01ec0"
 
 [update]
 [update.modrinth]
 mod-id = "rxIIYO6c"
-version = "kJ9LD194"
+version = "AX42Y90m"
