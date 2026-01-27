@@ -649,6 +649,10 @@ file = "kubejs/jsconfig.json"
 hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
 
 [[files]]
+file = "kubejs/server_scripts/delight_compats.js"
+hash = "da80c07bed512260b8c069d5f2951e7c2f4c12f784038e5d8602b387869d2ea4"
+
+[[files]]
 file = "kubejs/server_scripts/example.js"
 hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
