@@ -823,6 +823,11 @@ hash = "903352ffbd84d4b95fed905893f4715d9c3f88ec9fff6fb06f6e359e0b839dc3"
 metafile = true
 
 [[files]]
+file = "mods/comforts.pw.toml"
+hash = "a2c5d820180d2610e5017e3f08957010e30cf05d50ee3180272dac6f969260cf"
+metafile = true
+
+[[files]]
 file = "mods/compat-delight.pw.toml"
 hash = "f1f2ac0a30c1b2912e335f3d36b02a22af8b962385ed0a68bdcfa46cc83b9498"
 metafile = true

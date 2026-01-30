@@ -1,6 +1,11 @@
 ServerEvents.tags('item', event => {
     event.add("forge:salt", "fishermans_haven:salt")
     event.add("forge:salt", "refurbished_furniture:sea_salt")
+    event.add("fishermans_haven:organic_materials", "#hexerei:herbs")
+    event.add("fishermans_haven:organic_materials", "#supplementaries:flower_box_plantable")
+    event.add("fishermans_haven:organic_materials", "#dungeonsdelight:fleshes")
+    event.add("forge:dusts/obsidian", "create:powdered_obsidian")
+    event.add("forge:dusts/obsidian", "fishermans_haven:obsidian_dust")
 })
 
 ServerEvents.recipes(event => {
@@ -62,7 +67,23 @@ ServerEvents.recipes(event => {
         7,
         "minecraft:bowl"
     )
-
-
-
+    event.smelting("tconstruct:netherite_nugget", "fishermans_haven:netherite_dust")
+    event.blasting("tconstruct:netherite_nugget", "fishermans_haven:netherite_dust")
+    event.shapeless(
+        Item.of("minecraft:ender_pearl", 1),
+        [
+            "fishermans_haven:pearl",
+            "minecraft:popped_chorus_fruit"
+        ]
+    )
+    event.replaceInput(
+        { input: "create:powdered_obsidian" },
+        "create:powdered_obsidian",
+        "#forge:dusts/obsidian"
+    )
+    event.replaceInput(
+        { input: "fishermans_haven:obsidian_dust" },
+        "fishermans_haven:obsidian_dust",
+        "#forge:dusts/obsidian"
+    )
 })
