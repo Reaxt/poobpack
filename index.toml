@@ -907,6 +907,11 @@ hash = "5391ac307bbc73edb72e7eb11495af96e327eff1c02ff67d2ebbe615ca6766d7"
 metafile = true
 
 [[files]]
+file = "mods/create-trading-floor.pw.toml"
+hash = "de2de998a20ace7b50a6aadc4984343a81343096fe2acec92fb9326be40bb6c5"
+metafile = true
+
+[[files]]
 file = "mods/create-x-caverns-chasms-compat.pw.toml"
 hash = "f43d45d5cbc96c3d0dbfdfe9277cda7057ef7673bee4bae70710369f37c38d42"
 metafile = true
