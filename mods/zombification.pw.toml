@@ -1,6 +1,6 @@
 name = "Zombification"
 filename = "zombification-forge-1.2.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Mq7prbvA/versions/qCTcSbR9/zombification-forge-1.2.0.jar"
