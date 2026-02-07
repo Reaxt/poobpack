@@ -649,12 +649,20 @@ file = "kubejs/jsconfig.json"
 hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
 
 [[files]]
+file = "kubejs/server_scripts/crafting_sticks.js"
+hash = "027d6ca4814e747600b47d4000857c583d35e97fbed6f8983d7723c7b24e226c"
+
+[[files]]
 file = "kubejs/server_scripts/delight_compats.js"
 hash = "e6931af39b1f89412fbaf20f568d7fc682ff03ac7e467e9c27ecd054578adb3a"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
 hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+
+[[files]]
+file = "kubejs/server_scripts/exploit_fixes.js"
+hash = "231b0a3fdf5a71d8167aa5b823a6c427538479c9b9864172a709bec4fb9292b5"
 
 [[files]]
 file = "kubejs/server_scripts/fisherman_compat.js"
@@ -671,6 +679,10 @@ hash = "5af6d3e4ab8a492c92be570ef0025969cf8816f5fa9e3cf61de2c0bb7f7f0828"
 [[files]]
 file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+file = "kubejs/startup_scripts/zombification.js"
+hash = "a286d259e63398f0a1e189cce4e7eae977af860afee3f4ffedbc3befcaf48b34"
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
@@ -859,6 +871,11 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
+metafile = true
+
+[[files]]
+file = "mods/crafting-on-a-stick.pw.toml"
+hash = "2107056a612f9bd2cee42290461b83e13444fcecd87095617bdc01415f065490"
 metafile = true
 
 [[files]]
@@ -1162,6 +1179,11 @@ hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "7e9ef26310359f482e595815664b3d08381b30c6517c32a58078b0999e1d953a"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-delight.pw.toml"
 hash = "a3774b5c23d616cbf1cf9322577e185b5cd7f16cc721ad5c60303d6145361415"
 metafile = true
@@ -1232,6 +1254,11 @@ hash = "7b560bf9699e1aa606c7e3a16f3bdd656e23a59c7ba9a903218c7a09c659858d"
 metafile = true
 
 [[files]]
+file = "mods/morejs.pw.toml"
+hash = "fc6c3ef7784d2da83201a262e90dfa01c4cd5cf1e65ec3fd68e8662572c90e88"
+metafile = true
+
+[[files]]
 file = "mods/morph-o-tool.pw.toml"
 hash = "33b81bba2d8a156fb1115be572f01c4e7e4bc76d83421bfa3c884e75880bdeeb"
 metafile = true
@@ -1299,11 +1326,6 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "4ab869d8784f4ac318b5c92fa3d9e65f997352b8b57f34b409ca6f171637f0fe"
-metafile = true
-
-[[files]]
-file = "mods/portable-crafting-table.pw.toml"
-hash = "1fd8a2699c76037a8b14ee761a9e4520cba05105b26394d08e9bdf7e87e8a918"
 metafile = true
 
 [[files]]
@@ -1474,4 +1496,9 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
+metafile = true
+
+[[files]]
+file = "mods/zombification.pw.toml"
+hash = "8193dd15bdf7502aac8995f3b3e81ad530a146ee900584a2561620ac99df8526"
 metafile = true
