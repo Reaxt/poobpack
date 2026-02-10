@@ -11,6 +11,11 @@ ServerEvents.tags('item', event => {
     event.add("forge:cheese", "refurbished_furniture:cheese")
     // Stones
     event.add("quark:stone_tool_materials", "#minecraft:stone_tool_materials")
+    // Zinc
+    event.add("forge:plates/zinc", "createaddition:zinc_sheet")
+    event.add("forge:plates/zinc", "createdeco:zinc_sheet")
+    // Electrum Amulet
+    event.add("curios:necklace", "createaddition:electrum_amulet")
 })
 
 ServerEvents.recipes(event => {
@@ -37,4 +42,25 @@ ServerEvents.recipes(event => {
         "refurbished_furniture:cheese",
         "#forge:cheese"
 )
+    // Zinc sheets
+    event.remove({ input: "create:zinc_ingot" , output: "createdeco:zinc_sheet" })
+    //* Just in case, swap the recipes for tags
+    event.replaceInput(
+        { input: "createdeco:zinc_sheet"},
+        "createdeco:zinc_sheet",
+        "#forge:plates/zinc"
+    )
+    event.replaceInput(
+        { input: "createaddition:zinc_sheet"},
+        "createaddition:zinc_sheet",
+        "#forge:plates/zinc"
+    )
+    // Secret :)
+    event.recipes.create.filling(Item.of("minecraft:player_head", {SkullOwner:"Boltycat"}), [Fluid.of("estrogen:liquid_estrogen"), "minecraft:zombie_head"])
+})
+
+// Adding tags to blocks not items
+ServerEvents.tags('block', event => {
+    // Electrum
+    event.add("minecraft:mineable/pickaxe", "createaddition:electrum_block")
 })
