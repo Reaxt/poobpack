@@ -654,7 +654,7 @@ hash = "027d6ca4814e747600b47d4000857c583d35e97fbed6f8983d7723c7b24e226c"
 
 [[files]]
 file = "kubejs/server_scripts/delight_compats.js"
-hash = "e6931af39b1f89412fbaf20f568d7fc682ff03ac7e467e9c27ecd054578adb3a"
+hash = "85ff6d8b8c69b15fd35b34de84a15e19d141dc8dc86e5b000d5c47d7697de802"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
@@ -670,7 +670,7 @@ hash = "4bbbfbac46d8b125cd8e9de68bf3e964252f6c937473e9f9030ef3a110f9dfc6"
 
 [[files]]
 file = "kubejs/server_scripts/misc_additions.js"
-hash = "f66e838fcf7556d1b322f932f98e193cd0954e003fa3f412de72bce074aaca1c"
+hash = "66d3a91d53f25f60bde39b7caeecfb6c7c3a50fc3d3ea8a9b2a911ca6e48e563"
 
 [[files]]
 file = "kubejs/server_scripts/nocopper.js"
@@ -1471,6 +1471,11 @@ metafile = true
 [[files]]
 file = "mods/table-top-craft.pw.toml"
 hash = "c8597c7c0d8768c1dbef6cbcc7d45846933aa0528074bf41878e7cf0683f6a1f"
+metafile = true
+
+[[files]]
+file = "mods/tcintegrations.pw.toml"
+hash = "1b6c221637c09bb5ba12839a2d588d54e6ec5b8281066351ec205c3a477571cd"
 metafile = true
 
 [[files]]

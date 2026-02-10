@@ -65,5 +65,7 @@ ServerEvents.tags('item', event => {
     event.add("c:eggs", "quark:egg_parrot_green")
     event.add("c:eggs", "quark:egg_parrot_gray")
     event.add("c:eggs", "quark:egg_parrot_red_blue")
-    
+    event.add("sliceanddice:allowed_tools", "#minecraft:pickaxes")
+    event.add("sliceanddice:allowed_tools", "#minecraft:shovels")
+    event.add("sliceanddice:allowed_tools", "#forge:shears")
 })
