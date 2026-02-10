@@ -1094,13 +1094,28 @@ hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
 metafile = true
 
 [[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "0e753f0aea9277eba730d4a55929f244f9d7c9d15cc5e9bd96b4669e531f6de2"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "efda76423b21f9bfab4ad8d0411f0b06a199ab7e3e12ca16dc0586c1828b8f07"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "13306fd8dc27c0f5afb60874e6a12fc1b2252ac02e8a89ccc2f046f4898627ff"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "88f142bda6bfa6aff4f4d4e12b8ba7581aa40e3f163039a533f09dd6d634e093"
+hash = "30fe947e95d8da536ea4ad3c959f07cc504dd739ea530f7f4187ac08f4afcbc0"
 metafile = true
 
 [[files]]
@@ -1116,6 +1131,11 @@ metafile = true
 [[files]]
 file = "mods/hex-casting.pw.toml"
 hash = "22f7bd473bdc5add41d8afa0dc89dc442d77695a4675c3abf792c0981cc9ce9b"
+metafile = true
+
+[[files]]
+file = "mods/hexal.pw.toml"
+hash = "8cc5e3092795990c7c02710a453001833799c1ee90e7162231507c3589b87f8f"
 metafile = true
 
 [[files]]
@@ -1251,6 +1271,11 @@ metafile = true
 [[files]]
 file = "mods/more-sniffer-flowers.pw.toml"
 hash = "7b560bf9699e1aa606c7e3a16f3bdd656e23a59c7ba9a903218c7a09c659858d"
+metafile = true
+
+[[files]]
+file = "mods/moreiotas.pw.toml"
+hash = "ca39f453b2c66a071f3175ad5f4050ad05501389e9d7f3953e4d888cab02be0d"
 metafile = true
 
 [[files]]
@@ -1507,3 +1532,7 @@ metafile = true
 file = "mods/zombification.pw.toml"
 hash = "8193dd15bdf7502aac8995f3b3e81ad530a146ee900584a2561620ac99df8526"
 metafile = true
+
+[[files]]
+file = "world/serverconfig/ftbchunks-world.snbt"
+hash = "5869dfe482cec63358c28f873f5b552b5e9229c2964aa785e55c2639eb301260"
