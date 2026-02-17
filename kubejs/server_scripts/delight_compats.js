@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
   ]
 )
   event.shapeless(
-  Item.of('farmersdelight:organic_compost', 1),
+  Item.of('caverns_and_chasms:living_flesh', 1),
   [
     "3x #dungeonsdelight:fleshes",
     "2x caverns_and_chasms:silver_ingot",

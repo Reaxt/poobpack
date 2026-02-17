@@ -1,0 +1,13 @@
+name = "Advanced Shulkerboxes"
+filename = "shulkerbox-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PZAaSx6B/versions/ZkKPGnYI/shulkerbox-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "fef9980f6609254e761647fa7322c245668c3a41910b820da755a0aafd23bc571d2bf4dc32d862bca1647dc03b2e666ed69629f611c54e55d5cb2ff340fdd0ad"
+
+[update]
+[update.modrinth]
+mod-id = "PZAaSx6B"
+version = "ZkKPGnYI"
