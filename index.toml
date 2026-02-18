@@ -670,7 +670,7 @@ hash = "4bbbfbac46d8b125cd8e9de68bf3e964252f6c937473e9f9030ef3a110f9dfc6"
 
 [[files]]
 file = "kubejs/server_scripts/misc_additions.js"
-hash = "27d23a36e8cfaebf3ab0c362f9621df8d780e18f63ec45a794fdf9b546e19695"
+hash = "6172b90712b113b0b0cc370671dd7697c7bea34936d54b3644d1a81a74a7d677"
 
 [[files]]
 file = "kubejs/server_scripts/nocopper.js"
@@ -925,7 +925,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-mobile-packages.pw.toml"
-hash = "62d198c4aaaf86c010de6b0e3933c09424f17380842a3dfd28123676eaa31632"
+hash = "bb78ac49bbcbe7c045ac214a2ebe86f60d56d8e21266a39b835ca60f7f144ed8"
 metafile = true
 
 [[files]]
@@ -946,6 +946,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+metafile = true
+
+[[files]]
+file = "mods/create_factory_logistics.pw.toml"
+hash = "0b84aa4d342abf1b0a1afbab8b4fb8d21e095eece08b949f13e40bb6f100e031"
 metafile = true
 
 [[files]]
@@ -1030,12 +1035,12 @@ metafile = true
 
 [[files]]
 file = "mods/escalated.pw.toml"
-hash = "43101636762df8cbe9180587aa0eaf3c7234da8e5bcbf1e6e0a7dbcd58dca40b"
+hash = "998b8b054badc82168945dc17d76f9ffc50351e8b41883fc5f9e89baf437ed2b"
 metafile = true
 
 [[files]]
 file = "mods/estrogen.pw.toml"
-hash = "c357a7acd3c6fb4a68ac28dfe4e60964a3ed95d3df8de89abc2549800ec10480"
+hash = "bc8edd63c801209c99e7e5d184d77c3cf61ed0183fb04aca50bdf5ad0a5c8623"
 metafile = true
 
 [[files]]
@@ -1046,6 +1051,11 @@ metafile = true
 [[files]]
 file = "mods/exposure.pw.toml"
 hash = "ce198cf0e4ac56f35c03b5e721eacbd6c6bc86b6ab318c4c7259082edb625fc2"
+metafile = true
+
+[[files]]
+file = "mods/extra-gauges.pw.toml"
+hash = "edb1ddea9ee012f7dffd5c4bf9b3f6b9d33a08bdd029bbf30352ce07a80c5a4c"
 metafile = true
 
 [[files]]
@@ -1345,7 +1355,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "bd56624f00cda9e544281d2c247e5479f6f1c315f8d8088cfee86e8b61f69dac"
+hash = "4063b849f554fa9708ac3317f17c4ce84aa573f7499baefcff5f8b34de160f20"
 metafile = true
 
 [[files]]
@@ -1520,7 +1530,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "7e730b980a0d8aea7a573b53885e7b3939912868da20b780673fbbaed4d1f488"
+hash = "0bc8eabe4a22f40551d147a24a2b176fba0340fc6143eeb74427de885bbe8b16"
 metafile = true
 
 [[files]]

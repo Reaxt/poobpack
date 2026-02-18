@@ -94,6 +94,8 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('minecraft:light_gray_dye', 2), ["natures_spirit:silverbush"])
     event.recipes.create.crushing(["2x minecraft:white_dye", Item.of("minecraft:yellow_dye").withChance(0.3)], "natures_spirit:helova_flower")
     event.recipes.create.crushing(["2x minecraft:pink_dye", Item.of("minecraft:yellow_dye").withChance(0.3)], "natures_spirit:lotus_flower")
+    // Breeze rods, in line w/ blaze rod crushing
+    event.recipes.create.crushing(["5x trials:wind_charge", Item.of("3x trials:wind_charge").withChance(0.25)], "trials:breeze_rod")
 })
 
 // Adding tags to blocks not items
