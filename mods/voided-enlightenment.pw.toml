@@ -1,0 +1,13 @@
+name = "Voided Enlightenment"
+filename = "voided_enlightenment-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9bymOqKU/versions/GIFN97Vt/voided_enlightenment-1.5.0.jar"
+hash-format = "sha512"
+hash = "1a8e6ae7d7e3050102c02bad130a8ece08bb9a628b8f4bdf0191bc55ef401c1abe092d8f4c03bb43b2e2f6e85d07b3a290928639088dde60ab54fff4667ceb8c"
+
+[update]
+[update.modrinth]
+mod-id = "9bymOqKU"
+version = "GIFN97Vt"
