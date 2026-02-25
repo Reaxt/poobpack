@@ -662,7 +662,7 @@ hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
 [[files]]
 file = "kubejs/server_scripts/exploit_fixes.js"
-hash = "6b63bc82f846a2244369da664697d2e2e74ef41bf40b14e102f9d6699d660f73"
+hash = "3ed0c4a778932df9a60f93dc3b5cdfa53385d32056450472c83d0868314a852e"
 
 [[files]]
 file = "kubejs/server_scripts/fisherman_compat.js"
@@ -781,6 +781,11 @@ metafile = true
 [[files]]
 file = "mods/berry-good.pw.toml"
 hash = "c410ef1d053db4fc3fccde5331fa3ebac561e0e2f6f4babe9110b9c322fbc95a"
+metafile = true
+
+[[files]]
+file = "mods/block-n-zapping.pw.toml"
+hash = "1103e38140db1ce85ae611a57623ce6209f5355a9d37092ff60706b5013bc426"
 metafile = true
 
 [[files]]
@@ -944,13 +949,13 @@ hash = "88aca7f5341cba8dcb829fc5dab2c34a90a629fde5e533a66fd9ee68ad463d02"
 metafile = true
 
 [[files]]
-file = "mods/create-halitosis.pw.toml"
-hash = "82c6c2b0a1376597326f2e0bbf551a3f8f8d9e1caae022e3e066fec78fb4fc38"
+file = "mods/create-mobile-packages.pw.toml"
+hash = "bb78ac49bbcbe7c045ac214a2ebe86f60d56d8e21266a39b835ca60f7f144ed8"
 metafile = true
 
 [[files]]
-file = "mods/create-mobile-packages.pw.toml"
-hash = "bb78ac49bbcbe7c045ac214a2ebe86f60d56d8e21266a39b835ca60f7f144ed8"
+file = "mods/create-railways-navigator.pw.toml"
+hash = "11b63148016d37d853c9cc4de936a8fbd90d4d8ca1c27b6af18c213346fab9e2"
 metafile = true
 
 [[files]]
@@ -1026,6 +1031,11 @@ metafile = true
 [[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "47fd33da68d0b13cdffd4124f5bc9cff64caa2878ce7e979ba8092400c2ae1eb"
+metafile = true
+
+[[files]]
+file = "mods/dragonlib.pw.toml"
+hash = "e4f20190899231d50f06d3b5d2fc35f89ce7a3371c8d13fd3e90497de62e596f"
 metafile = true
 
 [[files]]
