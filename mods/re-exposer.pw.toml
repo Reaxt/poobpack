@@ -1,0 +1,13 @@
+name = "Re-Exposer"
+filename = "Re-Exposer-2.3.5-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wGlNMnXQ/versions/RqE4YmrC/Re-Exposer-2.3.5-1.20.1.jar"
+hash-format = "sha512"
+hash = "372fa35c3d69adc40f10821a3c12bacb3bec0b66613a44112fcfbb2d79aa69062bc69fbae04d5884f0b7cde223127bde6756bafc0c2bd6c221111434c68dea7f"
+
+[update]
+[update.modrinth]
+mod-id = "wGlNMnXQ"
+version = "RqE4YmrC"

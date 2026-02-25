@@ -662,7 +662,7 @@ hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
 [[files]]
 file = "kubejs/server_scripts/exploit_fixes.js"
-hash = "3ed0c4a778932df9a60f93dc3b5cdfa53385d32056450472c83d0868314a852e"
+hash = "4a3304778bc2ff4b2781fb57615b631b86f576221a5a19a4f291a36a4c37b7f0"
 
 [[files]]
 file = "kubejs/server_scripts/fisherman_compat.js"
@@ -881,6 +881,11 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "5b0eaf19630d6145093ae6ff9a21cf2dbdd0da53d9289673ad5ccb099afa18b7"
+metafile = true
+
+[[files]]
+file = "mods/construction-wand.pw.toml"
+hash = "f0a3b2a75840024a3dfc03dc073b20e61aa41cf939cef2698308029a5f870c35"
 metafile = true
 
 [[files]]
@@ -1451,6 +1456,11 @@ metafile = true
 [[files]]
 file = "mods/quarkponders.pw.toml"
 hash = "aba59fd89c4085dc61a0106abdb9a673928021a0f8f99467337779bd06d8cceb"
+metafile = true
+
+[[files]]
+file = "mods/re-exposer.pw.toml"
+hash = "acf95fbd941dd7324fd0d85168253ca20918a409c046e1872eec2674e02eb09d"
 metafile = true
 
 [[files]]
