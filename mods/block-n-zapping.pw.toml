@@ -1,0 +1,13 @@
+name = "Create: Block n' Zapping"
+filename = "Create-Block-n-Zapping-1.20.1-1.1a.Release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/R86Du9H7/versions/3SfL37tQ/Create-Block-n-Zapping-1.20.1-1.1a.Release.jar"
+hash-format = "sha512"
+hash = "94220b4783bc1c6ecf81e1cd2a415fdaab8d6c7c92db9c028a4272596f65a4166b0db1dac6007df35a4d7221972c2e6c6d23d8a96b7e34ed569f5ac27e7c273b"
+
+[update]
+[update.modrinth]
+mod-id = "R86Du9H7"
+version = "3SfL37tQ"
