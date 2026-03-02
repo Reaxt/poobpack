@@ -1,0 +1,13 @@
+name = "Oblivion"
+filename = "oblivion_api-forge-1.20.1-3.1.1-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ia0I62PO/versions/1QUCK2Ay/oblivion_api-forge-1.20.1-3.1.1-all.jar"
+hash-format = "sha512"
+hash = "c38540970d8b79f6672576c4e64897cd79456a7953b590073339129eaf37b879eded291f4c2ec0711a654722da8b4b129f6ac2e02a03540dc664f97dd4899d06"
+
+[update]
+[update.modrinth]
+mod-id = "Ia0I62PO"
+version = "1QUCK2Ay"

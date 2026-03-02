@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    event.remove({ output: "crafting_on_a_stick:loom" })
+    event.remove({ output: "crafting_on_a_stick:grindstone" })
+    event.remove({ output: "crafting_on_a_stick:cartography_table" })
+    event.remove({ output: "crafting_on_a_stick:stonecutter" })
+    event.remove({ output: "crafting_on_a_stick:smithing_table" })
+    event.remove({ output: "crafting_on_a_stick:anvil" })
+    event.remove({ output: "crafting_on_a_stick:chipped_anvil" })
+    event.remove({ output: "crafting_on_a_stick:damaged_anvil" })
+})

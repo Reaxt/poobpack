@@ -1,13 +1,13 @@
 name = "Every Compat (Gems Realm)"
-filename = "gemsrealm-1.20-2.9.4.jar"
+filename = "gemsrealm-1.20-2.9.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/v259p1An/versions/UVGYIuru/gemsrealm-1.20-2.9.4.jar"
+url = "https://cdn.modrinth.com/data/v259p1An/versions/VqC0vvrI/gemsrealm-1.20-2.9.6.jar"
 hash-format = "sha512"
-hash = "aecb7b78ffb7415921f4a1ccb814b3d34cd60ed613f11d33174cd9a2d9ce853e899ef6d1b82639ab2e79c04d5addc0a6deea6467bc3525a8d0a8195f09d5d5b2"
+hash = "86d3c31f4539414f0248c8405d0d40a39fcc88689f37e5c947895cf66889356d04717c40d3590b2b94d148dcd1a26944cd67f1eb15388f440679ca3fda48168e"
 
 [update]
 [update.modrinth]
 mod-id = "v259p1An"
-version = "UVGYIuru"
+version = "VqC0vvrI"
