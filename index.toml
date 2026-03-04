@@ -977,6 +977,16 @@ hash = "bb78ac49bbcbe7c045ac214a2ebe86f60d56d8e21266a39b835ca60f7f144ed8"
 metafile = true
 
 [[files]]
+file = "mods/create-more-girder.pw.toml"
+hash = "bdb06c4692fdf8df921c27cd24cec9b56dff09bd4969ef2ee2db10e1301b07fb"
+metafile = true
+
+[[files]]
+file = "mods/create-optical.pw.toml"
+hash = "aef7046e5a9a19a6f5099729198966242e628a07af43edbe72068f7f68b2c92a"
+metafile = true
+
+[[files]]
 file = "mods/create-railways-navigator.pw.toml"
 hash = "11b63148016d37d853c9cc4de936a8fbd90d4d8ca1c27b6af18c213346fab9e2"
 metafile = true
