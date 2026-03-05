@@ -682,7 +682,7 @@ hash = "4bbbfbac46d8b125cd8e9de68bf3e964252f6c937473e9f9030ef3a110f9dfc6"
 
 [[files]]
 file = "kubejs/server_scripts/misc_additions.js"
-hash = "9542f44608cb43f24769294b1a936d884db0a16313f325638bc0c5591b04fda7"
+hash = "a8cec643092b450724432ae1de7a10c96a77d79ffbd3ec5a66acf98fe41fdc6c"
 
 [[files]]
 file = "kubejs/server_scripts/nocopper.js"
@@ -694,7 +694,7 @@ hash = "52599bd01e63d2df4c14ea716e5c0d19cbb8c9d7683f36cbd079eccdc135c78b"
 
 [[files]]
 file = "kubejs/startup_scripts/currency.js"
-hash = "883d8ced4d02b618fa9015f4be47c274578c37dfafadeedbebd36467919b71b5"
+hash = "1a7d0131da468d27489bd9377772f5c66a0c403c2bec25ef015e7788fd8b242a"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
