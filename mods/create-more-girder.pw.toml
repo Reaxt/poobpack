@@ -1,0 +1,13 @@
+name = "Create: More Girder"
+filename = "create-more-girder-1.1.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sPg2LVAd/versions/RYiurvd3/create-more-girder-1.1.2-forge.jar"
+hash-format = "sha512"
+hash = "94abc9d95f8a8b4fa9582095addfea834e3a937745e53332cc41ed6a0a75ebcce6869d1be78ec4357088acc53b04c4604c37288792844e93467dd9bba85bfeac"
+
+[update]
+[update.modrinth]
+mod-id = "sPg2LVAd"
+version = "RYiurvd3"

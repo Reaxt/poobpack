@@ -1,0 +1,13 @@
+name = "Create Optical"
+filename = "create_optical-0.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kcZ7kwxx/versions/grLF8gNn/create_optical-0.3.1.jar"
+hash-format = "sha512"
+hash = "a8b020dbb65b1e4f0fe5f8d7d544235d229637f7ffd41f0dcac9211b9ee0a9a70ee1423fab844492abf1a9379c8b35ab849fc6e6cb490632aaf74e9fccaee4d2"
+
+[update]
+[update.modrinth]
+mod-id = "kcZ7kwxx"
+version = "grLF8gNn"
