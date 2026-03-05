@@ -1,0 +1,15 @@
+
+ServerEvents.recipes(event => {
+    event.remove({output: Fluid.of('create_central_kitchen:hot_cocoa')})
+    event.remove({output: Fluid.of('create_confectionery:hot_chocolate')})
+    event.remove({output: Fluid.of('create_confectionery:caramel')})
+    event.remove({id: 'create_confectionery:hot_chocolate_bottle_recipe'})
+    event.remove({id: 'create_confectionery:bar_of_caramel_recipe'})
+    event.remove({id: 'create_confectionery:caramel_glazed_berries_recipe'})
+    event.remove({id: 'create_central_kitchen:filling/hot_cocoa'})
+    event.recipes.create.compacting('alexscaves:caramel', Fluid.of("create_dd:caramel", 250))
+    event.recipes.create.filling("create_confectionery:hot_chocolate_bottle", [Fluid.of("minecraft:milk", 100), "create_dd:hot_chocolate"])
+    event.recipes.create.filling("create_confectionery:caramel_glazed_berries", [Fluid.of("create_dd:caramel", 250), "minecraft:sweet_berries"])
+    event.smelting('create_confectionery:bar_of_caramel', 'alexscaves:caramel')
+    event.replaceInput({ input: 'create_confectionery:bar_of_caramel' },'create_confectionery:bar_of_caramel','alexscaves:caramel')
+})
