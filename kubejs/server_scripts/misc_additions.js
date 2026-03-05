@@ -96,10 +96,61 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing(["2x minecraft:pink_dye", Item.of("minecraft:yellow_dye").withChance(0.3)], "natures_spirit:lotus_flower")
     // Breeze rods, in line w/ blaze rod crushing
     event.recipes.create.crushing(["5x trials:wind_charge", Item.of("3x trials:wind_charge").withChance(0.25)], "trials:breeze_rod")
+    // What if we had MONEY.
+    event.shapeless("9x kubejs:diamond_coin", "kubejs:diamond_coinstack")
+    event.shapeless("kubejs:diamond_coinstack", "9x kubejs:diamond_coin")
 })
 
 // Adding tags to blocks not items
 ServerEvents.tags('block', event => {
-    // Electrum (I still can't figure out how to make it drop itself but at least it's breakable now)
+    // Electrum
     event.add("minecraft:mineable/pickaxe", "createaddition:electrum_block")
+})
+
+// LootJS
+LootJS.modifiers((event) => {
+    // Fixing electrum
+    event.addBlockLootModifier("createaddition:electrum_block").addLoot("createaddition:electrum_block");
+    // Fixing diamond ore silk touch
+    let diamond_ores = [
+        "minecraft:diamond_ore",
+        "minecraft:deepslate_diamond_ore"
+    ]
+    diamond_ores.forEach(ore =>{
+    event
+        .addBlockLootModifier(ore)
+        .addLoot(
+            LootEntry.of("kubejs:diamond_coin")
+            .applyOreBonus("minecraft:fortune")
+        )
+        .or((or) => {
+            or
+            .matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+            .matchMainHand(ItemFilter.custom( item =>
+                {
+                    if (item.nbt.contains("tic_modifiers"))
+                    {
+                        if (item.nbt.tic_modifiers.find(i => i.name == 'tconstruct:silky') != undefined)
+                        {
+                            return true
+                        }
+                        else
+                        {
+                            return false
+                        }
+                    }
+                    else
+                    {
+                        return false
+                    }
+                }))
+        })
+        .removeLoot(Ingredient.all)
+        .addLoot(ore);
+    });
+
+    // Rubber trees drop saplings
+    event.addBlockLootModifier("create_dd:rubber_leaves").addLoot(
+        LootEntry.of("create_dd:rubber_sapling").when((c) => c.randomChanceWithEnchantment("minecraft:fortune", [0.05, 0.0625, 0.0833, 0.1]))
+    );
 })
