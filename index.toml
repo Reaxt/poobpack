@@ -637,6 +637,14 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/weathered_iron_ingot.png"
+hash = "89fbeb93c38039b552238f89f239fd4c8032c93ca7bd94ad497ce9b5d295fdbd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/weathered_iron_sheet.png"
+hash = "3f85673e265f3b145da2bfccc43a81198849f6e06720760615eaf9e6531fc7e6"
+
+[[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
@@ -655,6 +663,10 @@ hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 [[files]]
 file = "kubejs/jsconfig.json"
 hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
+
+[[files]]
+file = "kubejs/server_scripts/caramel_and_hot_cocoa.js"
+hash = "1385686e84583ca9290f11035762494b5410068ad623b4a492aff81fad2839d6"
 
 [[files]]
 file = "kubejs/server_scripts/crafting_sticks.js"
@@ -681,6 +693,10 @@ file = "kubejs/server_scripts/fisherman_compat.js"
 hash = "4bbbfbac46d8b125cd8e9de68bf3e964252f6c937473e9f9030ef3a110f9dfc6"
 
 [[files]]
+file = "kubejs/server_scripts/girders.js"
+hash = "40bac5659dd818af84a4aca4c9fa82f7c47e7bb30a7762da82671a77c08db5e1"
+
+[[files]]
 file = "kubejs/server_scripts/misc_additions.js"
 hash = "a8cec643092b450724432ae1de7a10c96a77d79ffbd3ec5a66acf98fe41fdc6c"
 
@@ -699,6 +715,10 @@ hash = "1a7d0131da468d27489bd9377772f5c66a0c403c2bec25ef015e7788fd8b242a"
 [[files]]
 file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+file = "kubejs/startup_scripts/weathered_iron.js"
+hash = "25c27707d2da791a213087a8c298a7576fd62b57b72418f103208b4942aa1024"
 
 [[files]]
 file = "kubejs/startup_scripts/zombification.js"
