@@ -99,6 +99,29 @@ ServerEvents.recipes(event => {
     // What if we had MONEY.
     event.shapeless("9x kubejs:diamond_coin", "kubejs:diamond_coinstack")
     event.shapeless("kubejs:diamond_coinstack", "9x kubejs:diamond_coin")
+    event.remove({ input: "#forge:ores/diamond" , output: "create:experience_nugget" })
+    event.recipes.create.crushing(
+        [
+            "minecraft:diamond", 
+            "kubejs:diamond_coin",
+            Item.of("minecraft:diamond").withChance(0.75),
+            Item.of("kubejs:diamond_coin").withChance(0.75),
+            Item.of("create:experience_nugget").withChance(0.75),
+            Item.of("minecraft:cobblestone").withChance(0.12),
+        ], 
+        "minecraft:diamond_ore"
+    )
+    event.recipes.create.crushing(
+        [
+            "2x minecraft:diamond", 
+            "2x kubejs:diamond_coin",
+            Item.of("minecraft:diamond").withChance(0.25),
+            Item.of("kubejs:diamond_coin").withChance(0.25),
+            Item.of("create:experience_nugget").withChance(0.75),
+            Item.of("minecraft:cobbled_deepslate").withChance(0.12),
+        ], 
+        "minecraft:deepslate_diamond_ore"
+    )
 })
 
 // Adding tags to blocks not items
@@ -150,7 +173,7 @@ LootJS.modifiers((event) => {
     });
 
     // Rubber trees drop saplings
-    event.addBlockLootModifier("create_dd:rubber_leaves").addLoot(
-        LootEntry.of("create_dd:rubber_sapling").when((c) => c.randomChanceWithEnchantment("minecraft:fortune", [0.05, 0.0625, 0.0833, 0.1]))
-    );
+    event.addBlockLootModifier("create_dd:rubber_leaves")
+    .addLoot(LootEntry.of("create_dd:rubber_sapling").when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of("create_dd:crystallized_sap").when((c) => c.randomChance(0.005)));
 })
