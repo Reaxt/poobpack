@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
     // Secret :)
     event.recipes.create.filling(Item.of("minecraft:player_head", {SkullOwner:"Boltycat"}), [Fluid.of("estrogen:liquid_estrogen"), "minecraft:zombie_head"])
     // Ink Sacs
-    event.recipes.create.filling("minecraft:ink_sac", [Fluid.of("create_enchantment_industry:ink"), "minecraft:leather"])
+    event.recipes.create.filling("minecraft:ink_sac", [Fluid.of("create_enchantment_industry:ink", 500), "minecraft:leather"])
     // Natures Spirit crushing
     event.recipes.create.crushing(["3x minecraft:orange_dye", Item.of("minecraft:yellow_dye").withChance(0.1)], "natures_spirit:marigold")
     event.recipes.create.crushing(["3x minecraft:orange_dye", Item.of("minecraft:green_dye").withChance(0.2)], "natures_spirit:begonia")
