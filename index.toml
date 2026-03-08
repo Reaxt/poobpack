@@ -698,7 +698,7 @@ hash = "40bac5659dd818af84a4aca4c9fa82f7c47e7bb30a7762da82671a77c08db5e1"
 
 [[files]]
 file = "kubejs/server_scripts/misc_additions.js"
-hash = "e2a4a100c33a123209b9ae31611ba78803496765fb041167cafd6b21d6a4f292"
+hash = "9126b1913d4fb20915a40c7527a74af69d3b9b7b3f07d0b8f702750f86cdc172"
 
 [[files]]
 file = "kubejs/server_scripts/nocopper.js"
@@ -1025,7 +1025,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "5391ac307bbc73edb72e7eb11495af96e327eff1c02ff67d2ebbe615ca6766d7"
+hash = "0e356f563d73ebdf7d8b8af0762ba3ea02dbd53f575d073d8a75f35dc91bf723"
 metafile = true
 
 [[files]]
@@ -1530,7 +1530,7 @@ metafile = true
 
 [[files]]
 file = "mods/rechiseled.pw.toml"
-hash = "3e8c59c1817babb68d49af1bd816d6d00ffbaa8343968ad324996a0d5deb9c69"
+hash = "e1fe69f03ebaaa29f48a61637613754bc0cacdd857c482eba6c7484717ce529b"
 metafile = true
 
 [[files]]
@@ -1610,7 +1610,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "76e4681bea67f97c8cd0b14c289cf1fbc71a6b475929fafc4132040becdc9047"
+hash = "40a73f377f8dcf95c0e801bdc69e68bc4a2d29ec0bcf17f4dcb1a78f887021d1"
 metafile = true
 
 [[files]]
