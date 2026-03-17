@@ -674,11 +674,11 @@ hash = "027d6ca4814e747600b47d4000857c583d35e97fbed6f8983d7723c7b24e226c"
 
 [[files]]
 file = "kubejs/server_scripts/d&d_compat.js"
-hash = "553ac89e2bd6f5cfeb63c14fbf0c646709c9dda01b0e38d8503ebd4f52464867"
+hash = "39c9d452008d56a9a37f4c5ef7e432cd2d745d9c583c0cb52f0056df70c81455"
 
 [[files]]
 file = "kubejs/server_scripts/delight_compats.js"
-hash = "ae63fb3231562038746267fae07bf1bd9a27fc8aa250238bba953e26290fcbba"
+hash = "62120cd3015eceaedd62365f283ebdb8a9e50df659dd5067d97b0c111b974009"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
@@ -686,7 +686,7 @@ hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
 [[files]]
 file = "kubejs/server_scripts/exploit_fixes.js"
-hash = "4a3304778bc2ff4b2781fb57615b631b86f576221a5a19a4f291a36a4c37b7f0"
+hash = "16bdbac12417e876e402c131299ddb7f51e53a7db52986f6fc5fab5a5279ffc9"
 
 [[files]]
 file = "kubejs/server_scripts/fisherman_compat.js"
@@ -694,11 +694,11 @@ hash = "4bbbfbac46d8b125cd8e9de68bf3e964252f6c937473e9f9030ef3a110f9dfc6"
 
 [[files]]
 file = "kubejs/server_scripts/girders.js"
-hash = "40bac5659dd818af84a4aca4c9fa82f7c47e7bb30a7762da82671a77c08db5e1"
+hash = "2c4bbe60f00e9d8390a213e585095112a05404887f5c342101cc5818642d053b"
 
 [[files]]
 file = "kubejs/server_scripts/misc_additions.js"
-hash = "b9ded93b6bdef17e9c69eb72267da52d3ff2f13d0002adcd49242bdeb739d4cf"
+hash = "a0f70965d5b5019b966941f9e8c70d4ddabff0a1c315ac287fc00c981c813a8a"
 
 [[files]]
 file = "kubejs/server_scripts/nocopper.js"
