@@ -2,6 +2,7 @@
 // Minecraft eggs -> #eggs
 // Salts -> #salt
 // Replaces several rotten flesh recipes with #fleshes recipes
+// Krayfish Dough -> #dough
 ServerEvents.recipes(event => {
     event.replaceInput(
   { input: 'minecraft:egg' },
@@ -27,6 +28,11 @@ ServerEvents.recipes(event => {
   { input: 'refurbished_furniture:sea_salt' },
   'refurbished_furniture:sea_salt',
   '#forge:salt'
+)
+    event.replaceInput(
+      {input: "refurbished_furniture:dough"},
+      "refurbished_furniture:dough",
+      "#forge:dough/wheat"
 )
   event.remove({ input: "minecraft:rotten_flesh", output: "fishermans_haven:fertilizer" })
   event.remove({ output: "farmersdelight:organic_compost" })
@@ -68,4 +74,5 @@ ServerEvents.tags('item', event => {
     event.add("sliceanddice:allowed_tools", "#minecraft:pickaxes")
     event.add("sliceanddice:allowed_tools", "#minecraft:shovels")
     event.add("sliceanddice:allowed_tools", "#forge:shears")
+    event.add("forge:dough/wheat", "refurbished_furniture:dough")
 })

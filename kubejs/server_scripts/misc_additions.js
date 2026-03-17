@@ -122,12 +122,53 @@ ServerEvents.recipes(event => {
         ], 
         "minecraft:deepslate_diamond_ore"
     )
+    // Honey(comb)
+    event.recipes.farmersdelight.cutting("minecraft:honeycomb_block", "#forge:tools/knives", '4x minecraft:honeycomb')
+    event.recipes.create.mixing("minecraft:honeycomb", ["#forge:slimeballs", {fluidTag: "forge:honey", amount: 250}])
+    // What if you could obtain the shelf tho
+    event.shaped(
+        '6x minecraft:pale_oak_shelf',
+        [
+            "LLL",
+            "   ",
+            "LLL"
+        ],
+        {L: "minecraft:stripped_pale_oak_log"}
+    )
 })
 
 // Adding tags to blocks not items
 ServerEvents.tags('block', event => {
     // Electrum
     event.add("minecraft:mineable/pickaxe", "createaddition:electrum_block")
+    // Fairylights
+    let fairylights_blocks = [
+        "fairylights:candle_lantern",
+        "fairylights:candle_lantern_light",
+        "fairylights:fairy_light",
+        "fairylights:fastener",
+        "fairylights:flower_light",
+        "fairylights:paper_lantern",
+        "fairylights:orb_lantern",
+        "fairylights:oil_lantern",
+        "fairylights:oil_lantern_light",
+        "fairylights:jack_o_lantern",
+        "fairylights:skull_light",
+        "fairylights:ghost_light",
+        "fairylights:witch_light",
+        "fairylights:snowflake_light",
+        "fairylights:spider_light",
+        "fairylights:heart_light",
+        "fairylights:moon_light",
+        "fairylights:star_light",
+        "fairylights:icicle_lights",
+        "fairylights:meteor_light",
+        "fairylights:incandescent_light"
+    ]
+    fairylights_blocks.forEach(fairylight =>{
+        event.add("minecraft:mineable/pickaxe", fairylight)
+    })
+    
 })
 
 // LootJS

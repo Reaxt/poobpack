@@ -1,0 +1,13 @@
+name = "Create: Compatible Storage"
+filename = "create_compatible_storage-2.9.0-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5ofroZ5W/versions/AwlQ7dam/create_compatible_storage-2.9.0-all.jar"
+hash-format = "sha512"
+hash = "dc720dffcdd7f642a021a0ee7f618e46c3ae729f6ffb0150c5e46cb2223be293ae748c3e254e5518b93815a15e5f5d16acb02ff9ed6bf6cb1c60abe02c578ca4"
+
+[update]
+[update.modrinth]
+mod-id = "5ofroZ5W"
+version = "AwlQ7dam"

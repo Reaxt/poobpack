@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
             'BBB',
         ],
         {
-            A: "create_dd:industrial_iron_sheet",
+            A: "create_dd:industrial_iron_ingot",
             B: "create:andesite_alloy"
         })
     event.stonecutting('2x createmoregirder:industrial_iron_girder_strut', 'createmoregirder:industrial_iron_girder')
