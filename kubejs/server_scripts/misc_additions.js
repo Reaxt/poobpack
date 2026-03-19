@@ -16,6 +16,11 @@ ServerEvents.tags('item', event => {
     event.add("forge:plates/zinc", "createdeco:zinc_sheet")
     // Electrum Amulet
     event.add("curios:necklace", "createaddition:electrum_amulet")
+    // Chalks
+    Color.DYE.forEach(color => {    
+        event.add(`forge:chalk/${color}`, `natures_spirit:${color}_chalk`)
+        event.add(`forge:chalk/${color}`, `arts_and_crafts:${color}_chalk`)
+    })
 })
 
 ServerEvents.recipes(event => {
@@ -124,7 +129,7 @@ ServerEvents.recipes(event => {
     )
     // Honey(comb)
     event.recipes.farmersdelight.cutting("minecraft:honeycomb_block", "#forge:tools/knives", '4x minecraft:honeycomb')
-    event.recipes.create.mixing("minecraft:honeycomb", ["#forge:slimeballs", {fluidTag: "forge:honey", amount: 250}])
+    event.recipes.create.mixing(["minecraft:honeycomb", Item.of("minecraft:honeycomb").withChance(0.25)], ["#forge:slimeballs", {fluidTag: "forge:honey", amount: 250}])
     // What if you could obtain the shelf tho
     event.shaped(
         '6x minecraft:pale_oak_shelf',
@@ -135,6 +140,22 @@ ServerEvents.recipes(event => {
         ],
         {L: "minecraft:stripped_pale_oak_log"}
     )
+    // Fuck it I want chalk and I want it NOOOOW!!!!!!
+    event.recipes.create.crushing(Item.of("natures_spirit:chalk_powder").withChance(0.25), "natures_spirit:calcite_shard")
+    Color.DYE.forEach(color => {    
+        event.replaceInput(
+            {
+                input: `arts_and_crafts:${color}_chalk`, 
+                output: `arts_and_crafts:${color}_chalk_stick`
+            }, 
+            `arts_and_crafts:${color}_chalk`, 
+            `#forge:chalk/${color}`
+        )
+    })
+    // Crystalized Sap -> Resin
+    event.recipes.create.haunting("minecraft:resin_clump", "create_dd:crystallized_sap")
+    // Corundum -> Silver nuggets (to make farming them a little more worth it beyond just looks)
+    event.recipes.create.crushing([Item.of("caverns_and_chasms:silver_nugget").withChance(0.16)], "#quark:corundum")
 })
 
 // Adding tags to blocks not items
