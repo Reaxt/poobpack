@@ -702,7 +702,7 @@ hash = "2c4bbe60f00e9d8390a213e585095112a05404887f5c342101cc5818642d053b"
 
 [[files]]
 file = "kubejs/server_scripts/misc_additions.js"
-hash = "ec9c2b564179f4919bd3b9038ba9e9d5be84e06c1c3592e604ca6c587ee2f68f"
+hash = "7071951d88b52ed8cbc78a575bb698495d0297471579329920bfd2fcb49f6f1c"
 
 [[files]]
 file = "kubejs/server_scripts/nocopper.js"
