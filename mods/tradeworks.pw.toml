@@ -1,0 +1,13 @@
+name = "Create: Tradeworks"
+filename = "tradeworks-1.0.6-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gnOpd0sq/versions/KiTtrQS2/tradeworks-1.0.6-all.jar"
+hash-format = "sha512"
+hash = "7904f114dba73c92b9bb189c348bf2ab84e44aab56a384326e84dbb032a3f123382bf2b9ef8e464f01a4e8a6ace46070d75a024e7c8dff9e63cbda168ef28a1d"
+
+[update]
+[update.modrinth]
+mod-id = "gnOpd0sq"
+version = "KiTtrQS2"
