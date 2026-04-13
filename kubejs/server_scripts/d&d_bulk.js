@@ -439,7 +439,7 @@ ServerEvents.recipes(event =>
         )
         // Propeller
         event.shaped(
-            "create:propeller",
+            "2x create:propeller",
             [
                 " S ",
                 "SAS",
@@ -464,7 +464,7 @@ ServerEvents.recipes(event =>
         )
         // Whisk
         event.shaped(
-            "create:whisk",
+            "2x create:whisk",
             [
                 " S ",
                 "SAS",
@@ -487,4 +487,24 @@ ServerEvents.recipes(event =>
                 A: "create:andesite_alloy"
             }
         )
+        // Encased Chain Drive
+        event.shapeless("3x create:encased_chain_drive", ["create:andesite_casing", "3x create_dd:industrial_iron_nugget"])
+        // Packager
+        event.shaped(
+            "2x create:packager",
+            [
+                " I ",
+                "ICI",
+                "RIR"
+            ],
+            {
+                I: "create_dd:industrial_iron_sheet",
+                C: "create:cardboard_block",
+                R: "minecraft:redstone"
+            }
+        )
+        // Clutch
+        event.shapeless("3x create:clutch", ["create_dd:industrial_casing", "create:shaft", "minecraft:redstone"])
+        // Gearshift
+        event.shapeless("3x create:gearshift", ["create_dd:industrial_casing", "create:cogwheel", "minecraft:redstone"])
 })

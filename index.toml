@@ -1024,7 +1024,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-optical.pw.toml"
-hash = "aef7046e5a9a19a6f5099729198966242e628a07af43edbe72068f7f68b2c92a"
+hash = "eddc6937c85fe3e80909b4a3ae3ce9f7202fd5dfb5cc69ed2554d8261360e753"
 metafile = true
 
 [[files]]
@@ -1685,6 +1685,11 @@ metafile = true
 [[files]]
 file = "mods/tinkers-construct.pw.toml"
 hash = "260bb534371b626ae67d2d53fadc9807e3ab5deb92e1faa10bcf7ff61bd18b25"
+metafile = true
+
+[[files]]
+file = "mods/tradeworks.pw.toml"
+hash = "cbf2c5f43ba8b59f31bedf7cf1f37d2191e8aa75ecb0fc84475f9b94e7a4245e"
 metafile = true
 
 [[files]]

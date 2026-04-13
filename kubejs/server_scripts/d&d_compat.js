@@ -63,4 +63,6 @@ ServerEvents.recipes(event =>
         // Removing D&D Copycats because CC+ is better
         event.remove({output: "create_dd:copycat_block"})
         event.remove({output: "create_dd:copycat_slab"})
+        // Fixing a missing sheet recipe
+        event.recipes.create.pressing('create_dd:stargaze_singularity_sheet', 'create_dd:stargaze_singularity')
 })
