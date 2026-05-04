@@ -156,6 +156,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.haunting("minecraft:resin_clump", "create_dd:crystallized_sap")
     // Corundum -> Silver nuggets (to make farming them a little more worth it beyond just looks)
     event.recipes.create.crushing([Item.of("caverns_and_chasms:silver_nugget").withChance(0.16)], "#quark:corundum")
+    // Ancient Fruit -> Experience fluid
+    event.recipes.create.compacting(Fluid.of("create_enchantment_industry:experience", 3), "quark:ancient_fruit")
 })
 
 // Adding tags to blocks not items
@@ -236,6 +238,7 @@ LootJS.modifiers((event) => {
 
     // Rubber trees drop saplings
     event.addBlockLootModifier("create_dd:rubber_leaves")
-    .addLoot(LootEntry.of("create_dd:rubber_sapling").when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of("create_dd:rubber_sapling").when((c) => c.randomChance(0.04)))
+    .addLoot(LootEntry.of("minecraft:stick").when((c) => c.randomChance(0.02)))
     .addLoot(LootEntry.of("create_dd:crystallized_sap").when((c) => c.randomChance(0.005)));
 })

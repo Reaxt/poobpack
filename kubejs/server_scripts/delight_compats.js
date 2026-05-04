@@ -63,6 +63,20 @@ ServerEvents.recipes(event => {
     "2x minecraft:ghast_tear"
   ]
 )
+  // Mushroom Stews
+  event.recipes.create.emptying([Fluid.of("tconstruct:mushroom_stew", 250), "minecraft:bowl"], "minecraft:mushroom_stew")
+  event.recipes.create.filling("minecraft:mushroom_stew", [Fluid.of("tconstruct:mushroom_stew", 250), "minecraft:bowl"])
+  event.recipes.create.mixing(Fluid.of("tconstruct:mushroom_stew", 250), ["minecraft:red_mushroom", "minecraft:brown_mushroom"]).heated()
+  // Cocoa powder, so it's not 100% useless make it able to at least do some of the basic things the beans can do
+  event.shapeless(
+    "8x minecraft:cookie",
+    [
+      "2x minecraft:wheat",
+      "2x create_confectionery:cocoa_powder"
+    ]
+  )
+  event.shapeless("minecraft:brown_dye", 'create_confectionery:cocoa_powder')
+  event.recipes.create.mixing(Fluid.of("create:chocolate", 250), ["2x create_confectionery:cocoa_powder", "minecraft:sugar", Fluid.of("minecraft:milk", 250)]).heated()
 })
 
 ServerEvents.tags('item', event => {
