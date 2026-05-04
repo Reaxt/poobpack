@@ -466,9 +466,9 @@ ServerEvents.recipes(event =>
         event.shaped(
             "2x create:whisk",
             [
-                " S ",
+                " A ",
                 "SAS",
-                " S "
+                "SSS"
             ],
             {
                 S: "create_dd:industrial_iron_sheet",
@@ -478,9 +478,9 @@ ServerEvents.recipes(event =>
         event.shaped(
             "4x create:whisk",
             [
-                " S ",
+                " A ",
                 "SAS",
-                " S "
+                "SSS"
             ],
             {
                 S: "create_dd:steel_sheet",
