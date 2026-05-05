@@ -682,7 +682,7 @@ hash = "3a28febe6ace5a2ae1911ab719131256ee1f5fcf1bcc4ac139be3eb29ddf1585"
 
 [[files]]
 file = "kubejs/server_scripts/delight_compats.js"
-hash = "d7bb2b1cdb087c7fe2f2842b7e6b17839207dd9bdab2465f4c4efb8cc88d0a9e"
+hash = "0d5c10698e77526ed2de60ed9d3a8203da9fd05b50ee843f7970110d2c50966d"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
@@ -702,7 +702,7 @@ hash = "2c4bbe60f00e9d8390a213e585095112a05404887f5c342101cc5818642d053b"
 
 [[files]]
 file = "kubejs/server_scripts/misc_additions.js"
-hash = "a32d8d18040c82582f1a101884976efa59a57591fd15eb9e26edb88fb5049302"
+hash = "ee617dcc3c179f9214d48ab1d8f2c5c4eea6e1b6f57c68ab96850a5124cb4b36"
 
 [[files]]
 file = "kubejs/server_scripts/nocopper.js"
@@ -1035,11 +1035,6 @@ metafile = true
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "4c091982c192238cc7b2cefbb3a6e634edc6d7a780e547d693df7f4e3e1b04be"
-metafile = true
-
-[[files]]
-file = "mods/create-threaded-trains.pw.toml"
-hash = "3c7aa1e213def089a6eaa89a8c4c51eade5ae89e1a674c03181a46690c340764"
 metafile = true
 
 [[files]]

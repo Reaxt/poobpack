@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
     // Corundum -> Silver nuggets (to make farming them a little more worth it beyond just looks)
     event.recipes.create.crushing([Item.of("caverns_and_chasms:silver_nugget").withChance(0.16)], "#quark:corundum")
     // Ancient Fruit -> Experience fluid
-    event.recipes.create.compacting(Fluid.of("create_enchantment_industry:experience", 3), "quark:ancient_fruit")
+    event.recipes.create.compacting(Fluid.of("create_enchantment_industry:experience", 10), "quark:ancient_fruit")
 })
 
 // Adding tags to blocks not items
